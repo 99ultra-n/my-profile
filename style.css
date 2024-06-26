@@ -1,0 +1,69 @@
+header {
+  display: flex;
+  justify-content: space-between;   /* 間隔を最大まで広げる */
+}
+
+header div {
+  display: flex;    /* ネスト対応 */
+}
+
+header div {
+  display: flex;
+  align-items: center;    /* 垂直方向を中央揃え */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd; /* 太さ1px, スタイルsolid, 色#dddの枠線を下だけつける */
+}
+
+body {
+  width: 80%;          /* 幅をページの80%にする */
+  min-width: 300px;    /* 最小の幅を300pxにする */
+  max-width: 800px;    /* 最大の幅を800pxにする */
+  margin: 0 auto;      /* 上下のマージンを0, 左右のマージンをautoにする */
+}
+
+img {
+  height: 2rem;
+}
+
+img {
+  padding: 10px;
+}
+.icon {
+  height: 15rem;
+}
+
+.icon {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+h1 {
+  color: black;
+  font-size: 3rem;
+}
+
+.name {
+  text-align: center;
+}
+
+
+table {
+  width: 100%;                  /* 幅をページいっぱいに広げる */
+  border-collapse: collapse;    /* 隣り合う枠線を結合する */
+  text-align: center;             /* テキストを左寄せにする */
+}
+
+th, td {
+  padding: 0.5rem;              /* 内側の余白を0.5rem取る */
+  border: 1px solid black;       /* 太さ1px, スタイルsolid, 色#dddの枠線をつける */
+}
+
+th {
+  background-color: skyblue;    /* 要素の背景色を#e1adadにする */
+}
